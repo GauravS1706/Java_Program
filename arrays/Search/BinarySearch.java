@@ -19,16 +19,15 @@ public class BinarySearch {
             }
             mid=(fisrt+last)/2;
         }
-        if (fisrt>last)
-        {
+       
             System.out.println("element not found");
-        }
+        
     }
 
     public static void main(String[] args) {
         int arr[]={10,20,30,40,50,60};
         int key=30;
-        int last= args.length-1;
+        int last= arr.length-1;
         binarySearch(arr,0,last,key);
     }
 
